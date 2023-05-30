@@ -1,121 +1,184 @@
-/**************************Tag Styles**************************/
-
-h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 6em;
-    margin: 0;
-}
-
 body {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
-/**************************Class Styles**************************/
+/* first section start */
 
-/**************Top Navigation Start***************/
-
-.topnav {
-    color: #5C469C;
-    font-size: 1.5em;
-    text-decoration: none;
-    display: inline;
-    padding: 0 30px 0 30px;
-    position: relative;
-    left: 550px;
-    top: 30px;
-}
-
-.name-r {
-    font-family: 'Sacramento', cursive;
-    font-size: 4rem;
-    color: #5C469C;
-    margin: 10px 0 0 10px;
-    position: absolute;
-    width: 70px;
-    height: 70px;
-}
-
-.name-r:hover {
-    color: #D4ADFC;
-    font-size: 5rem;
-    width: 90px;
-    height: 90px;
-}
-
-.topnav:hover {
-    color: #D4ADFC;
-}
-
-/***************Top Navigation End**************
-
-/***************First Container Start***************/
-
-.circle {
-    border-radius: 50%;
-    background-color: #FEF2F4;
-    top: 690px;
-    left: 900px;
-
-}
-
-.first-container {
-    height: 800px;
+#first-section {
     background-color: #0C134F;
 }
 
+#nav-logo {
+    font-family: "Sacramento";
+    font-size: 4rem;
+    color: #5C469C;
+}
+
+#nav-logo:hover {
+    color: #D4ADFC;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.7rem;
+    font-family: serif;
+}
+
+.nav-link {
+    color: #5C469C !important;
+}
+
+.nav-link:hover {
+    color: #D4ADFC !important;
+}
+
+/* grid */
+
+h1 {
+    font-weight: 600 !important;
+    font-family: "Sacramento", serif;
+    font-size: 6rem !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#name-grid {
+    color: #ACB1D6;
+    margin: 23% 0 22% 15%;
+}
+
+.human {
+    width: 100%;
+}
+
+.grid-h3 {
+    font-weight: 500 !important;
+    font-family: serif;
+    font-size: 1.2rem;
+}
+
+.grid-h2 {
+    font-weight: 500 !important;
+    color: #A4D0A4;
+    font-size: 1.7rem;
+}
+
 .fancy {
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
 }
 
-.span {
-    text-decoration: underline;
-}
-
 .square1 {
     background-color: #9384D1;
-    top: 300px;
-    left: 750px;
-
+    left: 94%;
+    bottom: 280px;
 }
 
 .square2 {
     background-color: #00FFCA;
-    top: 450px;
-    left: 60px;
+    right: 20%;
+    bottom: 60px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #FEF2F4;
+    bottom: 70px;
+    left: 20%;
+}
+
+@media (max-width: 1100px) and (min-width: 900px) {
+
+
+    #nav-logo {
+        font-size: 3rem;
+    }
+
+    .nav-item {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    .grid-h2 {
+        font-size: 1.3rem;
+    }
+
+    .grid-h3 {
+        font-size: 1.3rem;
+    }
 
 }
 
-.name-skill {
-    width: 35%;
-    position: absolute;
-    top: 250px;
-    left: 220px;
-    color: #ACB1D6;
+@media (max-width: 900px) and (min-width: 700px) {
+
+    .fancy {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    .grid-h2 {
+        font-size: 1.3rem;
+    }
+
+    .grid-h3 {
+        font-size: 1.3rem;
+    }
+
+    #name-grid {
+        margin-left: 20%;
+    }
+
+    .square1 {
+        left: 80%;
+    }
+
 }
 
-.h2 {
-    color: #A4D0A4;
-    line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
+@media (max-width: 700px) {
+
+    .fancy {
+        width: 30px;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 4rem !important;
+    }
+
+    .grid-h2 {
+        font-size: 1rem;
+    }
+
+    .grid-h3 {
+        font-size: 1rem;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    .square1 {
+        left: 80%;
+    }
+
+    #name-grid {
+        margin-left: 20%;
+    }
+
 }
 
-.human {
-    padding: 100px 100px 0 0;
-    float: right;
-    width: 40%;
-    height: 80%;
-}
 
-/***************First Container End***************/
-
-/***************Second Container First***************/
-
-
-
-/***************Second Container End***************/
-
-/**************************ID Styles**************************/
-
-
+/* first section end */
